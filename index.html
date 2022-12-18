@@ -4,9 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Calculadora</title>
 </head>
 <body>
-    
+    <div id="container">
+        <header>
+            <h1>Calculadora Web Básica</h1>
+        </header>
+        <section class="calculadora">
+            <div id="visor"><span id="numeros-visor">0.0000000000</span></div>
+            <table id="teclado">
+                <tbody>
+                    <tr>
+                        <td class="simbolos" id="c">C</td>
+                        <td class="simbolos" id="porcento">%</td>
+                        <td class="simbolos" id="mais-menos">+/-</td>
+                        <td class="simbolos" id="divisao">/</td>
+                    </tr>
+                    <tr>
+                        <td id="7"><button>7</button></td>
+                        <td id="8">8</td>
+                        <td id="9">9</td>
+                        <td class="simbolos" id="vezes">*</td>
+                    </tr>
+                    <tr>
+                        <td id="">4</td>
+                        <td id="">5</td>
+                        <td id="">6</td>
+                        <td class="simbolos" id="">-</td>
+                    </tr>
+                    <tr>
+                        <td id="1">1</td>
+                        <td id="2">2</td>
+                        <td id="3">3</td>
+                        <td class="simbolos" id="mais">+</td>
+                    </tr>
+                    <tr>
+                        <td id="zero" colspan="2">0</td>
+                        <td class="simbolos" id="ponto">.</td>
+                        <td class="simbolos" id="igual">=</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+
+
+    </div>
 </body>
 </html>
